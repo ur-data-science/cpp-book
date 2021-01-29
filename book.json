@@ -1,6 +1,6 @@
 {
     "gitbook": ">=3.2.0",
-    "root": "/book",
+    "root": "./book",
     "title": "Programming and Problem Solving with C++",
     "description": "University of Regina",
     "author": "Dr. Alireza Manashty",
@@ -19,7 +19,7 @@
     ],
     "pluginsConfig": {
         "ga": {
-            "token": "UA-51680040-3"
+            "token": "G-J332WB3QX8"
         },
         "github": {
             "url": "https://github.com/UR-DataScience"
