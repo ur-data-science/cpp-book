@@ -1,0 +1,15 @@
+{
+    "root": "./book",
+    "title": "Programming and Problem Solving with C++",
+    "description": "University of Regina",
+    "author": "Dr. Alireza Manashty",
+    "language": "en",
+    "plugins": [
+        "github@2.0.0"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/UR-DataScience"
+        }
+    }
+}
