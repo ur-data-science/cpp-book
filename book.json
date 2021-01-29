@@ -11,16 +11,12 @@
         }
     },
     "plugins": [
-        "ga@1.0.1",
         "github@2.0.0",
         "codeblock-label",
         "sectionx-ex",
         "collapsible-menu"
     ],
     "pluginsConfig": {
-        "ga": {
-            "token": "G-J332WB3QX8"
-        },
         "github": {
             "url": "https://github.com/UR-DataScience"
         }
