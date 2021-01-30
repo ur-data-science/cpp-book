@@ -1,6 +1,4 @@
 {
-    "gitbook": ">=3.2.0",
-    "root": "./book",
     "title": "Programming and Problem Solving with C++",
     "description": "University of Regina",
     "author": "Dr. Alireza Manashty",
@@ -14,7 +12,6 @@
         "github@2.0.0",
         "codeblock-label",
         "sectionx-ex",
-        "collapsible-menu"
     ],
     "pluginsConfig": {
         "github": {
