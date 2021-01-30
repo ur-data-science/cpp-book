@@ -11,7 +11,7 @@
     "plugins": [
         "github@2.0.0",
         "codeblock-label",
-        "sectionx-ex",
+        "sectionx-ex"
     ],
     "pluginsConfig": {
         "github": {
