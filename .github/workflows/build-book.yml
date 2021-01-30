@@ -5,22 +5,14 @@ on:
       - master
 
 jobs:
-  build-and-deploy:
+  build:
+    name: Build Gitbook
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          persist-credentials: false
 
-      - name: Install and Build
-        run: |
-          npm install
-          npx honkit build
-
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+      - name: Publish
+        uses: tuliren/publish-gitbook@v1.0.0
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: book
+          github_token: ${{ secrets.GITHUB_TOKEN }}
