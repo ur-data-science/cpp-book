@@ -36,14 +36,13 @@
             },
             "search": {},
             "sharing": {
-                "all": ["facebook", "google", "twitter", "weibo", "instapaper", "telegram"],
+                "all": ["facebook", "google", "twitter", "weibo", "instapaper"],
                 "facebook": true,
                 "google": false,
                 "instapaper": false,
                 "twitter": true,
                 "vk": false,
-                "weibo": false,
-                "telegram": false,
+                "weibo": false
             },
             "theme-default": {
                 "showLevel": false,
