@@ -636,3 +636,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+.jekyll-cache
+Gemfile.lock
+_site

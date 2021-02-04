@@ -3,3 +3,6 @@
 ## University of Regina
 
 ### Dr. Alireza Manashty
+
+Powered by Jekyll using GitBook templates
+ 
