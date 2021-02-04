@@ -1,4 +1,4 @@
-#  Programming and Problem Solving with C++
+# Programming and Problem Solving with C++
 
 ## University of Regina
 
