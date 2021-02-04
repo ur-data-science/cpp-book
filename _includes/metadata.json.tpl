@@ -22,7 +22,7 @@
         "pluginsConfig": {
             "github": {
                 "url": "https://github.com/ur-datascience/cpp-book"
-            }
+            },
             "fontsettings": {
                 "family": "sans",
                 "size": 2,
