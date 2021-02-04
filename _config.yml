@@ -9,8 +9,8 @@ description: >
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://cpp.urdatascience.ca/'
-baseurl:          ''
+url:              'https://urdatascience.ca/'
+baseurl:          '/cpp-book'
 rss:              RSS
 
 # markdown render engine.
