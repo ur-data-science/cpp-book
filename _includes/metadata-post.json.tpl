@@ -3,6 +3,8 @@
         "title": "Introduction",
         "level": "1.1",
         "depth": 1,
+        {% assign reversed_posts = site.posts | reverse %}
+
         {% if page.next %}
         "next": {
             "title": "{{page.next.title}}",

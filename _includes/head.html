@@ -7,14 +7,9 @@
     <title>{{ site.title | escape }}</title>
 {%- endif -%}
 
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="description" content="{{site.description}}">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="{{ site.description }}">
 
-{%- if site.gitbook_version -%}
-    <meta name="generator" content="Jekyll (using style of GitBook {{ site.gitbook_version | escape }})">
-{%- else -%}
-    <meta name="generator" content="Jekyll (using style of GitBook)">
-{%- endif -%}
 
 {%- if site.author -%}
     <meta name="author" content="{{ site.author | escape }}">
@@ -22,8 +17,7 @@
 
 <link rel="stylesheet" href="{{site.baseurl}}/gitbook/style.css">
 <link rel="stylesheet" href="{{site.baseurl}}/gitbook/gitbook-plugin-fontsettings/website.css">
-<!-- <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css"> -->
-
+<link rel="stylesheet" href="{{site.baseurl}}/gitbook/gitbook-plugin-search/search.css">
 <link rel="stylesheet" href="{{site.baseurl}}/gitbook/rouge-highlight-colorful.css">
 
 <meta name="HandheldFriendly" content="true"/>
