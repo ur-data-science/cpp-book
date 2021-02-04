@@ -39,3 +39,8 @@ regenerate:       true
 
 plugins:
   - jemoji
+  - jekyll-feed
+
+collections:
+  blog:
+    output: true

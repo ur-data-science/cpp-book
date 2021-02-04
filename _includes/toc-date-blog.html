@@ -1,0 +1,54 @@
+<div class="book-summary">
+    <!--
+    <div id="book-search-input" role="search">
+        <input type="text" placeholder="Type to search"/>
+    </div>
+    -->
+    <nav role="navigation">
+        <ul class="summary">
+            {% if page.url == "/index.html" or page.url == "/" %}
+            <li class="chapter active" data-level="1.1" data-path="{{site.baseurl}}">
+                {% else %}
+            <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
+                {% endif %}
+                <a href="{{site.baseurl}}">
+                    {{ site.title | escape }}
+                </a>
+            </li>
+
+            <li class="divider"></li>
+
+            {% assign reversed_posts = site.posts | reverse %}
+
+            {% for post in site.blog %}
+            {% if page.url == post.url %}
+            <li class="chapter active" data-level="2" data-path="{{site.baseurl}}{{post.url}}" style="font-weight:bold;">
+                <a href="{{site.baseurl}}{{post.url}}">
+                    {{ post.title | escape }}
+                </a>
+            </li>
+            {% else %}
+            <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{post.url}}">
+                <a href="{{site.baseurl}}{{post.url}}">
+                    {{ post.title | escape }}
+                </a>
+            </li>
+            {% endif %}
+            {% endfor %}
+
+            <li class="divider"></li>
+
+            <li style="font-size: large; font-weight: bold;">
+                <a href="https://urdatascience.ca" target="blank" class="gitbook-link" style="color: dodgerblue">
+                    The hub of Data Science at <br> the University of Regina
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/ur-datascience/cpp-book/fork" target="blank" class="gitbook-link">
+                    Fork and Help us to Improve this book
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+</div>
