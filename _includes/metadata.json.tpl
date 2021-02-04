@@ -1,5 +1,16 @@
     "config": {
-        "plugins": ["fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
+        "plugins": [
+            "github",
+            "fontsettings",
+            "highlight",
+            "livereload",
+            "lunr",
+            "search",
+            "sharing",
+            "theme-default",
+            "livereload",
+            "expandable-chapters"
+        ],
         "styles": {
             "ebook": "styles/ebook.css",
             "epub": "styles/epub.css",
@@ -9,6 +20,9 @@
             "website": "styles/website.css"
         },
         "pluginsConfig": {
+            "github": {
+                "url": "https://github.com/ur-datascience/cpp-book"
+            }
             "fontsettings": {
                 "family": "sans",
                 "size": 2,
@@ -22,13 +36,14 @@
             },
             "search": {},
             "sharing": {
-                "all": ["facebook", "google", "twitter", "weibo", "instapaper"],
+                "all": ["facebook", "google", "twitter", "weibo", "instapaper", "telegram"],
                 "facebook": true,
                 "google": false,
                 "instapaper": false,
                 "twitter": true,
                 "vk": false,
-                "weibo": false
+                "weibo": false,
+                "telegram": false,
             },
             "theme-default": {
                 "showLevel": false,
@@ -43,7 +58,7 @@
             }
         },
         "theme": "default",
-        "author": "Tao He",
+        "author": "Yazdan Ranjbar",
         "pdf": {
             "pageNumbers": true,
             "fontSize": 12,
@@ -78,5 +93,5 @@
     },
     "basePath": "{{site.baseurl}}",
     "book": {
-        "language": ""
+        "language": "en"
     }
